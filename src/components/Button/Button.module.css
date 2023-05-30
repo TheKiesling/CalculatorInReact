@@ -1,0 +1,39 @@
+.button{
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline:none;
+    border:none;
+}
+
+
+.button:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+    outline:none;
+    border:none;
+}
+
+.number{
+    background-color: #EAE3DB;
+    color: #373830;
+    box-shadow: 0 5px #999;
+}
+
+.action{
+    background-color: #388187;
+    box-shadow: 0 5px #1A5D66;
+}
+
+.operation{
+    background-color: #C15101;
+    box-shadow: 0 5px#7D4115;
+}
